@@ -18,52 +18,58 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
-                <a class="navbar-brand" href="index.html"><img src="..."></a>
+                <a class="navbar-brand" href="index.html"><img src="/images/logo-sm-header.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              How To Act
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="howToAct.html#before">Before</a>
-                                <a class="dropdown-item" href="howToAct.html#during">During</a>
-                                <a class="dropdown-item" href="howToAct.html#after">After</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="howToAct.html#additional">Additional Information</a>
-                            </div>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="FAQ.html">FAQ</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Buying Supplies
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">Kits</a>
-                              <a class="dropdown-item" href="#">Food</a>
-                              <a class="dropdown-item" href="#">Other</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">Additional Information</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Community Resources
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="#">Before</a>
-                              <a class="dropdown-item" href="#">During</a>
-                              <a class="dropdown-item" href="#">After</a>
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="#">Additional Information</a>
-                            </div>
-                        </li>
-                        <form class="form-inline">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </ul>
+                    <div class="row">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row-reverse pb-5">
+                            <form class="form-inline px-3 py-2">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                            <i class="bi bi-instagram px-3" style="font-size: 2rem; color: white;"></i>
+                            <i class="bi bi-twitter px-3" style="font-size: 2rem; color: white;"></i>
+                            <i class="bi bi-facebook px-3" style="font-size: 2rem; color: white;"></i>
+                        </ul>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row-reverse">
+                            <li class="nav-item px-3 dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Community Resources
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Before</a>
+                                    <a class="dropdown-item" href="#">During</a>
+                                    <a class="dropdown-item" href="#">After</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Additional Information</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Buying Supplies
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Kits</a>
+                                    <a class="dropdown-item" href="#">Food</a>
+                                    <a class="dropdown-item" href="#">Other</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Additional Information</a>
+                                </div>
+                            </li>
+                            <li class="nav-item px-3"><a class="nav-link" href="FAQ.html">FAQ</a></li>
+                            <li class="nav-item px-3 dropdown">
+                                <a class="nav-link dropdown-toggle" href="howToAct.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    How To Act
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="howToAct.html#before">Before</a>
+                                    <a class="dropdown-item" href="howToAct.html#during">During</a>
+                                    <a class="dropdown-item" href="howToAct.html#after">After</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="howToAct.html#additional">Additional Information</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -76,7 +82,7 @@
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <!-- Before -->
-                    <div class="post-preview mt-5">
+                    <div class="post-preview mt-5" id="before">
                         <h2 class="post-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h2>
                         <p class="my-3">
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
@@ -87,7 +93,7 @@
                     <!-- Divider-->
                     <hr class="my-4" />
                     <!-- During -->
-                    <div class="post-preview mt-5">
+                    <div class="post-preview mt-5" id="during">
                         <h2 class="post-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h2>
                         <p class="my-3">
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
@@ -98,7 +104,7 @@
                     <!-- Divider-->
                     <hr class="my-4" />
                     <!-- After -->
-                    <div class="post-preview mt-5">
+                    <div class="post-preview mt-5" id="after">
                         <h2 class="post-title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h2>
                         <p class="my-3">
                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
@@ -113,7 +119,7 @@
             </div>
         </div>
         <!-- Additional Info -->
-        <div class="container px-4 px-lg-5 mb-5">
+        <div class="container px-4 px-lg-5 mb-5" id="additional">
             <h2>Related Pages</h2>
             <div class="row gx-4 gx-lg-5 justify-content-around">
                     <div class="col card mx-2 mb-5 mb-xl-0">
