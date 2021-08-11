@@ -42,7 +42,7 @@ a{
 }
 /* -----------NAV */
 .bg-dark{
-    background-image: url("/images/MainNav.png");
+    background-image: url("../images/MainNav.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
