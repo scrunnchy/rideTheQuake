@@ -1,4 +1,9 @@
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6{
+    color: #212779;
+    font-family: 'Roboto Slab', serif;
+}
+
+p{
     color: #212779;
     /* font-family: ; */
 }
@@ -66,6 +71,8 @@ a{
     position: fixed;
     bottom: 20px; 
     right: 30px; 
+    width: 50px;
+    height: 50px;
     z-index: 99; 
     border: none; 
     outline: none; 
@@ -78,5 +85,5 @@ a{
   }
   
   #myBtn:hover {
-    background-color: #555; 
+    background-color: #f16c43; 
   }
