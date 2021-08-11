@@ -1,7 +1,8 @@
 body{
-    background-image: url("/images/");
+    background-image: url("/images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6{
