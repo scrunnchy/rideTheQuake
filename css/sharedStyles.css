@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto Slab', serif;
 }
 
-p{
+p, li{
     color: #212779;
     /* font-family: ; */
 }
